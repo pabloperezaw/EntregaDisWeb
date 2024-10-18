@@ -1,0 +1,228 @@
+main {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.post-container {
+    height: 700px;
+    background-color: #fff;
+    position: float;
+    display: block;
+    border-radius: 1px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: solid 1px black;
+    height: 15vh;
+}
+
+.logoig{
+    position: relative;
+    top: 8%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    margin: -10px;
+}
+
+.logoinsta{
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    width: 300px;
+    height: 100px;
+    border-left: solid 1px black;
+}
+
+.searchicon{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    position: relative;
+    top: 20%;
+    right: 400px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.cartel{
+    position: absolute;
+    top: 24%;
+    right: 40%;
+    height: 700px;
+}
+
+.cuenta {
+    position: absolute;
+    top: 24%;
+    right: 24%;
+    margin-top: 5px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+.more{
+    position: relative;
+    top: 1%;
+    left: 30%;
+}
+
+.mensajepublicacion{
+    position: absolute;
+    top: 35%;
+    right: 24%;
+    margin-top: 5px;
+    background-color: white;
+    width: 300px;
+    height: 140px;
+    font-size: 20px;
+}
+
+.profileOne{
+    position: relative;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 1px;
+}
+
+.divadd{
+    position:absolute;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    top: 50%;
+    right: 24%;
+    text-align: center;
+}
+
+.add{
+    width: 120px;
+    height: 40px;
+}
+
+div .cuenta img{
+    text-align: end;
+}
+
+.comentuser{
+    position: absolute;
+    top: 58%;
+    right: 24%;
+    margin-top: 5px;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+}
+
+.like{
+    position: relative;
+    top: 1%;
+    left: 1%;
+    width: 30px;
+    height: 30px;
+}
+
+.comentimg{
+    position: relative;
+    top: 1%;
+    left: 2%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.sendimg{
+    position: relative;
+    top: 1%;
+    left: 3%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.keepimg{
+    position: relative;
+    top: 1%;
+    left: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.lcsg{
+    position: absolute;
+    top: 77%;
+    right: 24%;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+div .lscg p{
+    padding: 1px;
+    margin-top: 3px;
+}
+
+.iniciosesion{
+    position: absolute;
+    top: 88%;
+    right: 24%;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+}
+
+.iniciosesion a{
+    color: blue;
+}
+
+.mensajepublicacion p{
+    color: #888;
+}
+
+.comentuser p{
+    color: #888;
+}
+
+.cuenta p{
+    color: #888;
+}
+
+.cuenta a{
+    color:rgb(0, 179, 255);
+    text-align: justify;
+}
+
+a:link{
+    text-decoration: none;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000001;
+    color: aliceblue;
+    font-family: Verdana, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header{
+    background-image: url('../homeImg/banner.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+h1{
+    color:orangered;
+    font-family: Verdana, sans-serif;
+    font-size: 56px;
+}
+
+h2{
+    color:aliceblue;
+    text-align: center;
+    font-size: 36px;
+}
+
+section{
+    background-color: #ce2800;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+div{
+    background-color: #5fa8dc;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 16px;
+}
+
+div h2{
+    color: #000049;
+}
+article{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+    background-color: #3c6000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD006;
+    display: flex;
+    justify-content: center; /* Centra el menú */
+}
+
+ul li {
+    position: relative; /* Necesario para los menús desplegables */
+
+}
+
+ul li a {
+    display: block;
+    color: #000001;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: pink;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #FFD006;
+    top: 100%; /* Despliega justo debajo del enlace principal */
+    left: 0;
+    z-index: 1;
+}
+
+ol{
+    list-style-type: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul li {
+    float: none;
+}
+
+ul li ul li a {
+    padding: 12px 16px;
+}
+
+.win{
+    color: greenyellow;
+    font-size: 20px;
+}
