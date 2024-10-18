@@ -4,6 +4,7 @@ a:link{
 
 .bloquePrincipal{
     background-color: antiquewhite;
+    border: solid 1px black;
 }
 
 .infoPersonal{
