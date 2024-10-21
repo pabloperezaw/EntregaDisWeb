@@ -8,5 +8,6 @@ a:link{
 }
 
 .infoPersonal{
-    
+    background-color: aqua;
+    border: solid 1px black;
 }
