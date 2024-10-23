@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 header{
     background-image: url(imagenes/fondo.jpg);
     text-align: center;
@@ -17,4 +23,28 @@ ul {
     background-color: #FFD006;
     display: flex;
     justify-content: center; /* Centra el menú */
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 420px 420px 420px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.grid-item{
+    border: 7px solid #3c6000;
+    background-color: #5fa8dc;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+figcaption{
+    color:#000001;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1%;
 }
