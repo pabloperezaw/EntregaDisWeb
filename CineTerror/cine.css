@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #4F4F4F;
+}
+
 header{
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(imagenes/killersofa.jpg);
     text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 1%;
 }
 
 header h1{
-    color: orange;
+    color: #8B0000;
     font-size: 48px;
+    padding: 3%;
 }
 
 ul {
@@ -23,15 +27,20 @@ ul {
     background-color: #FFD006;
     display: flex;
     justify-content: center; /* Centra el menú */
+    margin: 1%;
 }
 
 .grid-container{
     display: grid;
     column-gap: 50px;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 350px 350px 350px 350px;
     margin-bottom: 1%;
     margin-top: 1%;
+    float: inline-end;
+    margin-right: 3%;
 }
+
+
 
 .grid-item{
     border: 7px solid #3c6000;
@@ -47,4 +56,32 @@ figcaption{
     text-align: center;
     font-size: 18px;
     margin-top: 1%;
+    text-align: start;
+    padding-top: 1%;
+}
+
+.evento{
+    float: inline-start;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 2%;
+    background-color: #39FF14;
+}
+
+.evento h1{
+    font-size: 48px;
+    color: #8B0000;
+}
+form{
+    float: left;
+}
+
+footer{
+    float: right;
+}
+
+.crt{
+    margin-top: 5%;
 }
