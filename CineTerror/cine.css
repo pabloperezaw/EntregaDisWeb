@@ -3,9 +3,43 @@ header{
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
 }
 
 header h1{
     font-size: 48px;
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD006;
+    display: flex;
+    justify-content: center; /* Centra el menú */
+}
+
+ul li {
+    position: relative; /* Necesario para los menús desplegables */
+}
+
+ul li a {
+    display: block;
+    color: #000001;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: pink;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #FFD006;
+    top: 100%; /* Despliega justo debajo del enlace principal */
+    left: 0;
+    z-index: 1;
 }
