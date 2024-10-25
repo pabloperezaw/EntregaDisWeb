@@ -12,26 +12,28 @@
     </header>
     <nav>
         <ul>
-            <li>Evento de Halloween</li>
-            <li>Cartelera</li>
-            <li>Contacto</li>
+            <li> <a href="#inicio">Evento de Halloween</a></li>
+            <li> <a href="#cartelera">Cartelera</a></li>
+            <li> <a href="#entradas">Entradas</a></li>
+            <li> <a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="inicio">
             <div class="evento">
                 <h1>Evento de Halloween</h1>
                 <p>
-                    El 31 de Octubre de 2024 en el ayuntamiento del pueblo habrá un evento en el que se reproducirán un montón de peliculas de terror <br>
-                    tanto para mayores de 14 años, como para niños. En la cartelera se podrán ver la spelículas disponibles según la edad. Los niños deben <br>
-                    ir acompañados por un mayor de edad. Se podrá obtener una entrada por 5€ para ver cualquier película. <br>
+                    El 31 de Octubre de 2024 en el ayuntamiento del pueblo habrá un evento en el que se reproducirán un montón de peliculas de terror
+                    tanto para mayores de 14 años, como para niños. En la cartelera se podrán ver la spelículas disponibles según la edad. Los niños deben
+                    ir acompañados por un mayor de edad. Se podrá obtener una entrada por 5€ para ver cualquier película. Para ver la sinopsis de la película
+                    haz click en las imágenes de las películas.
                 </p>
             </div>
         </section>
-        <section>
+        <section id="cartelera">
             <div class="grid-container">
                 <figure class="grid-item">
-                    <img src="imagenes/scoob.jpg" alt="">
+                    <a href="https://www.filmaffinity.com/es/film335172.html"><img src="imagenes/scoob.jpg" alt="scooby doo"></a>
                     <figcaption>
                         <p>Titulo: Scooby doo y la isla de los zombis </p> 
                         <p>Directores: Jim Stenstrum, Kazumi Fukushima, Hiroshi Aoyama</p> 
@@ -43,7 +45,7 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/chucky.jpg" alt="">
+                    <a href="https://www.imdb.com/title/tt0094862/?ref_=ttawd_ov"><img src="imagenes/chucky.jpg" alt=""></a>
                     <figcaption>
                         <p>Titulo: Chuky (Childs Play)</p> 
                         <p>Director: Tom Holland</p>
@@ -55,7 +57,7 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/bubba.jpg" alt="">
+                   <a href="https://www.filmaffinity.com/es/film106098.html"><img src="imagenes/bubba.jpg" alt=""></a>
                     <figcaption>
                         <p>Titulo: La matanza de Texas</p> 
                         <p>Director: Tobe Hooper</p> 
@@ -67,7 +69,7 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/halloweenOrg.jpg" alt="">
+                   <a href="https://www.filmaffinity.com/es/film384174.html"><img src="imagenes/halloweenOrg.jpg" alt=""></a>
                     <figcaption>
                         <p>Titulo: La noche de Halloween</p> 
                         <p>Director: Jhon Carpenter</p> 
@@ -79,7 +81,7 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/insidius.jpg" alt="">
+                  <a href="https://www.filmaffinity.com/es/film760103.html"><img src="imagenes/insidius.jpg" alt=""></a>
                     <figcaption>
                         <p>Titulo: Insidius</p>
                         <p>Director: James Wan</p> 
@@ -91,11 +93,11 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/pesadilla.jpg" alt="">
+                   <a href="https://www.filmaffinity.com/es/film560345.html"><img src="imagenes/pesadilla.jpg" alt=""></a>
                     <figcaption>
-                        <p>Titulo: Pesadilla en Elm Street</p> 
+                        <p>Titulo: Pesadilla en Elm Street (Remake)</p> 
                         <p>Director: Wes Craben</p>
-                        <p>Año de estreno: 1984</p> 
+                        <p>Año de estreno: 2010</p> 
                         <p>Hora: 18:00, 20:00, 22:00, 24:00 y 2:00</p>
                         <p>Sala: F </p>
                         <p>Duración: 91 minutos</p> 
@@ -103,7 +105,7 @@
                     </figcaption>
                 </figure>
                 <figure class="grid-item">
-                    <img src="imagenes/bloodandhooney.jpg" alt="">
+                    <a href="https://www.filmaffinity.com/es/film966063.html"><img src="imagenes/bloodandhooney.jpg" alt=""></a>
                     <figcaption>
                         <p>Titulo: Winnie The-Pooh: Miel y Sangre 2</p>
                         <p>Director: Rhys Frake-Waterfield</p> 
@@ -116,8 +118,20 @@
                 </figure>
             </div>
         </section>
-        <section>
-            
+        <section id="entradas">
+            <div class="entradass">
+                    <h1>Entradas</h1>
+                    <h2>Menores de 14 años</h2>
+                    <p>3€ para ver solo la película de scooby doo todas las veces que quiera</p>
+    
+                    <h2>Entre 14 y 16 años</h2>
+                    <p>5€ para ver la película de chucky y la de scooby doo las veces que quiera</p>
+                
+                    <h2>Mayores de 16 años</h2>
+                    <p>10€ para ver cualquier película las veces que quiera</p> 
+            </div>
+        </section>
+        <section id="contacto">
             <form action="" method="post">
                 <h1>Formulario de Reserva</h1>
                 <label for="">Nombre <input type="text" required></label>
