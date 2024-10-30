@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cine.css">
+    <link rel="shortcut icon" href="imagenes/dbd.jpg" type="image/x-icon">
     <title>Evento Halloween</title>
 </head>
 <body>
@@ -23,10 +24,15 @@
             <div class="evento">
                 <h1>Evento de Halloween</h1>
                 <p>
-                    El 31 de Octubre de 2024 en el ayuntamiento del pueblo habrá un evento en el que se reproducirán un montón de peliculas de terror
+                    El 31 de Octubre de 2024 en el ayuntamiento de Alberite habrá un evento en el que se reproducirán un montón de peliculas de terror
                     tanto para mayores de 14 años, como para niños. En la cartelera se podrán ver la spelículas disponibles según la edad. Los niños deben
                     ir acompañados por un mayor de edad. Se podrá obtener una entrada por 5€ para ver cualquier película. Para ver la sinopsis de la película
                     haz click en las imágenes de las películas.
+                </p>
+                <h2>Dirección</h2>
+                <p>
+                    Ayuntamiento de Alberite <br>
+                    Plaza José María Trevijano, 3, 26141 Alberite, La Rioja
                 </p>
             </div>
         </section>
@@ -116,6 +122,30 @@
                         <p>Edad: Mayores de 16 años </p>
                     </figcaption>
                 </figure>
+                <figure class="grid-item">
+                    <a href="https://www.filmaffinity.com/es/film312662.html"><img src="imagenes/traintibusan.jpg" alt=""></a>
+                    <figcaption>
+                        <p>Titulo: Train to Busan</p>
+                        <p>Director: Yeon Sang-ho</p> 
+                        <p>Año de estreno: 2016</p> 
+                        <p>Hora: 3:00</p>
+                        <p>Sala: B </p>
+                        <p>Duración: 118 minutos</p> 
+                        <p>Edad: Entre 14 y 16 años </p>
+                    </figcaption>
+                </figure>
+                <figure class="grid-item">
+                    <a href="https://www.filmaffinity.com/es/film758430.html"><img src="imagenes/killersofa.jpg" alt="" width="275"></a>
+                    <figcaption>
+                        <p>Titulo: Killer Sofa</p>
+                        <p>Director: Bernie Rao</p> 
+                        <p>Año de estreno: 2016</p> 
+                        <p>Hora: 4:00</p>
+                        <p>Sala: F </p>
+                        <p>Duración: 81 minutos</p> 
+                        <p>Edad: Entre 14 y 16 años </p>
+                    </figcaption>
+                </figure>
             </div>
         </section>
         <section id="entradas">
@@ -131,31 +161,64 @@
                     <p>10€ para ver cualquier película las veces que quiera</p> 
             </div>
         </section>
+        <section>
+            <div class="lista">
+                <h2>Listado Películas</h2>
+                <ul>
+                    <li>Scooby Doo y la Isla de los Zombies</li>
+                    <li>Chucky</li>
+                    <li>La Matanza de Texas</li>
+                    <li>La noche de Halloween</li>
+                    <li>Insidius</li>
+                    <li>Pesadilla en Elm Street</li>
+                    <li>Winnie the Pooh: Miel y Sangre 2</li>
+                    <li>Train to Busan</li>
+                    <li>Killer Sofa</li>
+                </ul>
+            </div>
+        </section>
         <section id="contacto">
             <form action="" method="post">
-                <h1>Formulario de Reserva</h1>
-                <label for="">Nombre <input type="text" required></label>
-                <label for="">Apellidos <input type="text" required></label>
-                <label for="">DNI <input type="tel" maxlength="9" required></label>
-                <label for="">Teléfono <input type="tel" maxlength="9" required></label>
-                <label for="">Email <input type="email" required></label>
-                <select>
-                    <option value="Edad" selected disabled>Edad</option>
-                    <option value="">Menor de 14 años</option>
-                    <option value="">Entre 14 y 16 años</option>
-                    <option value="">Mayor de 16 años</option>
-                </select>
-                <p>Opcion para elegir las peliculas y el horario</p>
-                <label for="">Numero de personas<input type="text" name="" id=""></label>
-                <label for="">Comentarios adicionales<input type="text" name="" id=""></label>
-                <input type="reset" value="Vaciar">
-                <input type="submit" value="Enviar">
+                <fieldset>
+                    <legend></legend>
+                    <h1>Formulario de Reserva</h1>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="">Nombre <input type="text" required></label>
+                        <label for="">Apellidos <input type="text" required></label>
+                        <label for="">DNI <input type="text" maxlength="9" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+                        <label for="">Teléfono <input type="tel" maxlength="9" required></label>
+                        <label for="">Email <input type="email" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos de la Reserva</legend>
+                        <select>
+                            <option value="Edad" selected disabled>Edad para entradas</option>
+                            <option value="">Menor de 14 años</option>
+                            <option value="">Entre 14 y 16 años</option>
+                            <option value="">Mayor de 16 años</option>
+                        </select>
+                        <label for="">Numero de personas<input type="number" name="" id=""></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comentarios o problemas</legend>
+                        <label for="w"></label>
+                        <textarea id="w" name="w3review" rows="4" cols="50" placeholder="Escribe tu más sincera pero erronea opinión"></textarea>
+                    </fieldset>
+                    <input type="reset" value="Vaciar">
+                    <input type="submit" onclick="alert('Información recibida, que tenga un buen día')" value="Enviar">
+                </fieldset>
             </form>
         </section>
     </main>
     <footer>
-        <h3>Enlace a la hoja de estilos</h3>
-        &copy; Ayuntamiento. Todos los derechos reservados.
+        <div>
+            <a href="hojaestilos.html">Guia de estilos</a>
+            &copy; Ayuntamiento de Alberite. Todos los derechos reservados.    
+        </div>
     </footer>
 </body>
 </html>
