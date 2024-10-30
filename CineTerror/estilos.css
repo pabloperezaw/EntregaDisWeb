@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "desangrado";
+    src: url(fuente/letras/Nosifer/Nosifer-Regular.ttf);
+}
+
+.titulos{
+    font-size: 48px;
+    color: #bf0707;
+    font-family: desangrado;
+}
+
+.subtitulos{
+    font-size: 28px;
+    color: #2E0854;
+    font-family: desangrado;
+}
+
+.letranormal{
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+
+/* Colores y Tipografía General */
+/*body {
+    font-family: Arial, sans-serif;
+    color: #eaeaea;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+*/
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+/*h1 {
+    font-size: 2em;
+    color: #ff5722;
+}
+*/
+h2 {
+    font-size: 1.75em;
+    color: #ffab40;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #e0e0e0;
+}
+
+/* Texto y Enlaces */
+
+a {
+    color: #ffab40;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5722;
+}
+
+/* Botones */
+button, input[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ff784e;
+}
+
+/* Formularios */
+form {
+    background-color: peru;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend{
+    color: #2E0854;
+    font-size: 28px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 174, 103);
+    color: #000001;
+    border: 2px solid #2E0854;
+    border-radius: 7px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+textarea{
+    resize: none;
+}
+
+.lista{
+    border: solid 5px #2E0854;
+    width: 30%;
+    height: 30%;
+    background-color: #bf0707;
+    border-radius: 10px;
+}
+
+.lista ul{
+    list-style-image: url("imagenes/dbd.png");
+}
+
+.lista h2{
+    color: #2E0854;
+    text-align: center;
+}
+
+.lista li{
+    color: wheat;
+    margin-top: 1%;
+    display: block;
+    text-align: center;
+}
+
+/*.lista ul li::before{
+    content: "👻";
+}
+    */
