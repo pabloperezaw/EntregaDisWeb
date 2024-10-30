@@ -6,8 +6,8 @@
 
 body{
     background-color: #4F4F4F;
-    /*background-image: url(imagenes/killersofa.jpg);*/
     background-size: auto;
+    font-family: 'Lucida Sans'/*, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif*/;
 }
 
 @font-face {
@@ -18,8 +18,6 @@ body{
 header{
     background-image: url(imagenes/baner2.jpg);
     text-align: center;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
 header h1{
@@ -30,32 +28,28 @@ header h1{
     font-family: desangrado;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     background-color: #FF4500;
     display: flex;
     justify-content: center; /* Centra el menú */
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
-ul li {
+nav ul li {
     position: relative; /* Necesario para los menús desplegables */
 
 }
 
-ul li a {
+nav ul li a {
     display: block;
     color: rgb(2, 2, 116);
-    
-
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
 }
 
-ul li a:hover {
+nav ul li a:hover {
     background-color: #09ab1c;
 }
 
@@ -108,23 +102,14 @@ figcaption{
     text-align: center;
 }
 
+.evento h2{
+    color: #2E0854;
+    font-size: 28px;
+    text-align: center;
+}
 .evento p{
     font-size: 20px;
     padding: 3%;
-}
-form{
-    float: left;
-    margin-left: 3%;
-}
-
-form h1{
-    color: #bf0707;
-    font-size: 48px;
-    font-family: desangrado;
-}
-
-footer{
-    float: right;
 }
 
 .crt{
@@ -153,13 +138,136 @@ footer{
 .entradass h1{
     font-size: 48px;
     color: #bf0707;
+    font-family: desangrado;
 }
 
 .entradass h2{
     font-size: 28px;
     color: #2E0854;
+    font-family: desangrado;
 }
 
 .entradass p{
     font-size: 20px;
+}
+
+.lista{
+    border: solid 5px #2E0854;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    position: relative;
+    background-color: #bf0707;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.lista h2{
+    color: #2E0854;
+}
+
+.lista li{
+    color: wheat;
+    margin-top: 1%;
+    display: block;
+}
+
+.lista ul li::before{
+    content: "👻";
+}
+
+form{
+    background-color: peru;
+    margin-top: 1%;
+    width: 1000px;
+    font-size: 20px;
+    margin-left: 25%;
+    float: left;
+}
+
+form h1{
+    color: #bf0707;
+    font-size: 48px;
+    font-family: desangrado;
+    text-align: center;
+}
+
+fieldset{
+    padding: 3%;
+    margin: 3%;
+}
+
+input[type=text] {
+    border: 2px solid #2E0854;
+    border-radius: 7px;
+    background-color: rgb(245, 174, 103);
+    color: #000001;
+}
+
+input[type=tel] {
+    border: 2px solid #2E0854;
+    border-radius: 7px;
+    background-color: rgb(245, 174, 103);
+    color: #000001;
+}
+
+input[type=email] {
+    border: 2px solid #2E0854;
+    border-radius: 7px;
+    background-color: rgb(245, 174, 103);
+    color: #000001;
+}
+
+textarea{
+    border: 2px solid #2E0854;
+    border-radius: 7px;
+    background-color: rgb(245, 174, 103);
+    color: #000001;
+    width: 60%;
+    resize: none;
+}
+
+legend{
+    color: #2E0854;
+    font-size: 28px;
+}
+
+footer{
+    float: inline-end;
+    margin-top: 1%;
+    color: aliceblue;
+    width: 100%;
+    text-align: right;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: wheat;
+}
+
+footer a:visited{
+    color: wheat;
+}
+
+footer a:hover{
+    color: aquamarine;
+}
+footer a:active{
+    color: antiquewhite;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #ff784e;
 }
