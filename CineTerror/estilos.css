@@ -130,10 +130,6 @@ textarea{
     border-radius: 10px;
 }
 
-.lista ul{
-    list-style-image: url("imagenes/dbd.png");
-}
-
 .lista h2{
     color: #2E0854;
     text-align: center;
@@ -146,7 +142,6 @@ textarea{
     text-align: center;
 }
 
-/*.lista ul li::before{
+.lista ul li::before{
     content: "👻";
 }
-    */
