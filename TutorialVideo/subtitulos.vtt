@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Este es un ejercicio de PHP
+
+00:00:05.000 --> 00:00:18.000
+El enunciado pide que el usuario ponga un ingreso anual en la consola para ponerle reglas de impuesto segun la cantidad.
+
+
+00:00:18.000 --> 00:00:27.000
+Ponemos primero una variable que espere al usuario hasta que haya puesto el ingreso.
+
+00:00:28.000 --> 00:00:35.000
+El ejercicio tambien pide usar una estructura entre 3 condicionales.
+
+00:00:36.000 --> 00:00:50.000
+La primera condicion si el ingreso esta entre $10,000 y $30,000 se calcule un 10% de impuesto.
+
+00:01:00.000 --> 00:01:20.000
+La segunda condicion, el ingreso esta entre $30,000 y $50,000 se calculara un 20% de impuesto.
+
+00:01:30.000 --> 00:01:50.000
+Y mas que eso el impuesto sera del 30%.
+
+00:02:00.000 --> 00:02:20.000
+Creo una nueva terminal para ejecutar el main.php.
+
+00:02:25.000 --> 00:02:30.000
+Si no pasa del $10,000 no se le aplicara ningun impuesto.
+
+00:02:40.000 --> 00:02:50.000
+Todas estas condiciones se calculan segun el impuesto dado multiplicado por su porcentaje (0.1, 0.2, 0.3)
+
+00:02:50.000 --> 00:02:59.000
+Eso es todo
