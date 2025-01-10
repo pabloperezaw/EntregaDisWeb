@@ -1,0 +1,208 @@
+.contenedor{
+    position: relative;
+}
+
+.circuito{
+    position: relative;
+}
+
+.rob{
+    position: absolute;
+    top: 525px;
+    left: 1350px;
+    width: 4%;
+    z-index: 1;
+    animation: race 15s linear 3.1s 2;
+}
+
+.bones{
+    position: absolute;
+    top: 525px;
+    left: 1350px;
+    width: 4%;
+    z-index: 1;
+    animation: race 16s linear 3.1s 2;
+}
+
+.yoshi{
+    position: absolute;
+    top: 525px;
+    left: 1350px;
+    width: 4%;
+    z-index: 1;
+    animation: race 17s linear 3.1s 2;
+}
+
+.circuit{
+    position: absolute;
+    width: 99%;
+    z-index: 1;
+    height: 750px;
+}
+
+.semaforo {
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    top: 300px;
+    left: 700px;
+    opacity: 0;
+    animation: start 3s linear;
+}
+
+.rojo {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+.rojo:nth-of-type(1){
+    top: 10px;
+    left: 25px;
+    animation: start 2.5s linear 0.5s;
+}
+
+.rojo:nth-of-type(2){
+    top: 100px;
+    left: 25px;
+    animation: start 1.5s linear 1.5s;
+}
+
+.rojo:nth-of-type(3){
+    top: 200px;
+    left: 25px;
+    animation: start 0.5s linear 2.5s;
+}
+
+.end{
+    position: absolute;
+    z-index: 10;
+    top: 600px;
+    left: 1400px;
+    opacity: 0;
+    animation: bandera 1s linear 33s forwards;
+}
+@keyframes race {
+    0%{
+        transform: translateX(0);
+    }
+    5%{
+        /*Curva 1*/
+        transform: translateX(300px) translateY(0) rotateZ(0);
+    }
+    10%{
+        /*Curva 2*/
+        transform: translateX(350px) translateY(-90px) rotateZ(-90deg);
+    }
+    15%{
+        transform: translateX(-100px) translateY(-200px) rotateZ(-180deg);
+    }
+    20%{
+        transform: translateX(-170px) translateY(-300px) rotateZ(-90deg);
+    }
+    25%{
+        transform: translateX(-150px) translateY(-450px) rotateZ(-90deg);
+    }
+    30%{
+        transform: translateX(-125px) translateY(-450px) rotateZ(-180deg);
+    }
+    35%{
+        /*curva 3*/
+        transform: translateX(-270px) translateY(-500px) rotateZ(-180deg);
+    }
+    40%{
+        /*Curva 3.5*/
+        transform: translateX(-350px) translateY(-500px) rotateZ(-180deg);
+    }
+    45%{
+        /*curva 4*/
+        transform: translateX(-600px) translateY(-420px) rotateZ(-270deg);
+    }
+    50%{
+        /*Curva 4.5*/
+        transform: translateX(-550px) translateY(-300px) rotateZ(-270deg);
+    }
+    55%{
+        /*Curva 5*/
+        transform: translateX(-450px) translateY(-290px) rotateZ(-270deg);
+    }
+    60%{
+        /*Curva 5.5*/
+        transform: translateX(-500px) translateY(-170px) rotateZ(-300deg);
+    }
+    65%{
+        /*Curva 5.5*/
+        transform: translateX(-700px) translateY(-170px) rotateZ(-180deg);
+    }
+    70%{
+        /*Curva 5.5*/
+        transform: translateX(-900px) translateY(-400px) rotateZ(-180deg);
+    }
+    75%{
+        /*Curva 6*/
+        transform: translateX(-950px) translateY(-450px) rotateZ(-180deg);
+    }
+    77%{
+        /*Curva 6.5*/
+        transform: translateX(-1100px) translateY(-400px) rotateZ(-270deg);
+    }
+    80%{
+        /*Curva 6*/
+        transform: translateX(-1170px) translateY(-200px) rotateZ(-270deg);
+    }
+    85%{
+        transform: translateX(-1200px) translateY(-50px) rotateZ(-270deg);
+    }
+    90%{
+        /*Curva 10*/
+        transform: translateX(-1100px) translateY(100px) rotateZ(-325deg);
+    }92%{
+        transform: translateX(-900px) translateY(150px) rotateZ(-360deg);
+    }
+    94%{
+        /*ultima curva 11*/
+        transform: translateX(-800px) translateY(10px) rotateZ(-360deg);
+    }
+    96%{/*Entrada a la recta final*/
+        transform: translateX(-600px) translateY(0px) rotateZ(-360deg);  
+    }
+    98%{
+        transform: translateX(-400px) translateY(0px) rotateZ(-360deg);  
+    }
+    100%{
+        /*Ultima recta*/
+        transform: translateX(0) rotateZ(-360deg);
+    }
+}
+
+@keyframes start {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes bandera {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
