@@ -28,25 +28,25 @@ section {
 }
 
 section:nth-child(1) {
-    background: green;
+    background: plum;
     top: 0;
     left: 0;
 }
 
 section:nth-child(2) {
-    background: red;
+    background: palevioletred;
     top: 0;
     left: 50%;
 }
 
 section:nth-child(3) {
-    background: blue;
+    background: fuchsia;
     top: 50%;
     left: 0;
 }
 
 section:nth-child(4) {
-    background: fuchsia;
+    background: purple;
     top: 50%;
     left: 50%;
 }
