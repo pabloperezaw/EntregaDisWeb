@@ -1,8 +1,8 @@
 const secciones = document.querySelectorAll('section');
 secciones.forEach(s => {
     s.addEventListener('click', function () {
-        secciones.forEach(sec => sec.classList = "section noExpandir");
-        this.classList = "section expandir";
+        secciones.forEach(sec => sec.classList = "section not-expanded");
+        this.classList = "section is-expanded";
     });
 
     const closeButton = s.querySelector('.cerrar-seccion');
