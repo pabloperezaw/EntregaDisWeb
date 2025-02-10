@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Image Carrusel</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/masterball.jpg" type="image/jpg">
+</head>
+<body>
+
+    <div class="carousel">
+        <div class="carousel-slide active">
+            <h1 class="tituloD">Dialga</h1>
+            <img src="img/dialgaEx.png" id="imagenAnexo" class="anexo" alt="Dialga">
+            <div class="dialgaEx">
+                <h2>Dialga Ex</h2>
+                <p>Carta Ex de Dialga del juego de cartas de Pokemon.</p>
+                <p>150 de vida, su primer ataque necesita 2 energías de acero. Hace 30 de daño y une 2 energías de acero a 1 pokemon en banca.</p>
+                <p>Su segundo ataque necesita 2 energías de acero y 2 energías de cualquier tipo. Hace 100 de daño.</p>
+            </div>
+        </div>
+
+        <div class="carousel-slide">
+            <h1 class="tituloP">Palkia</h1>
+            <img src="img/palkiaEx.png" id="imagenAnexo" class="anexo" alt="Palkia">
+            <div class="palkiaEx">
+                <h2>Palkia EX</h2>
+                <p>Carta EX de Palkia del juego de cartas de Pokemon.</p>
+                <p>150 de vida, su primer ataque necesita una energía de agua y hace 20 de daño.</p>
+                <p>Su segundo ataque necesita 3 energías de agua y 1 energía de cualquier tipo. Este ataque hace 150 de daño, descarta 3 energías de agua de este Pokemon y además hace 20 de daño a los Pokemon de banca de tu rival.</p>
+            </div>
+        </div>
+
+        <div class="carousel-slide">
+            <h1 class="tituloG">Giratina</h1>
+            <img src="img/giratina.png" id="imagenAnexo" class="anexo" alt="Giratina">
+            <div class="giratina">
+                <h2>Giratina</h2>
+                <p>Carta de Giratina del juego de cartas de Pokemon</p>
+                <p>Tiene 120 de vida, tiene una habilidad especial que si tiene una energía unida a él se puede retirar sin coste.</p>
+                <p>Su único ataque hace 70 de daño y necesita 2 energías psíquicas y una energía de cualquier tipo.</p>
+            </div>
+        </div>
+
+        <div class="carousel-buttons">
+            <button onclick="changeSlide(0)"></button>
+            <button onclick="changeSlide(1)"></button>
+            <button onclick="changeSlide(2)"></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
