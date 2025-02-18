@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/logo.webp">
+    <title>Proyectos</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="img/logo.webp" alt="Logo Escuela de Cine" width="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="socios.html">Socios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-light" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide h-50 d-none d-sm-block" data-bs-ride="carousel">
+        <div class="tituloHero w-100 h-100 position-absolute bg-dark bg-gradient bg-opacity-50">
+            <h1 class="position-absolute rounded text-center text-white p-3 mb-5 bg-info bg-opacity-75 titulo">Escuela de Cine Paul</h1>
+        </div>
+        <div class="carousel-inner h-50 inner">
+            <div class="carousel-item active">
+                <img src="img/titanic.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/starwars.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/pulpfiction.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/gladiator.webp" class="d-block w-100" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="img/shark.jpg" class="d-block w-100" alt="Imagen 5">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container d-flex justify-content-center my-5">
+        <div class="table-container">
+            <table class="table table-hover table-striped table-bordered text-center">
+                <thead class="table-primary">
+                    <tr>
+                        <th scope="col">Nombre del Proyecto</th>
+                        <th scope="col">Temática</th>
+                        <th scope="col">Participantes</th>
+                        <th scope="col">Fecha de estreno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Lava Shark</th>
+                        <td>Película de tiburones</td>
+                        <td>Javier, Lucas, Andrea y Sandra</td>
+                        <td>17/03/2025</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jonatan Verduras</th>
+                        <td>Película de Acción</td>
+                        <td>Fernando, Jorge, Alicia y Marcos</td>
+                        <td>18/04/2025</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Un administrador de Sistemas en DAW</th>
+                        <td>Comedia</td>
+                        <td>Pablo, Sergio, Álvaro y David</td>
+                        <td>19/05/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-2">
+        &copy; 2025 Pablo Pérez. Todos los derechos reservados. Escuela de Cine Paul
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

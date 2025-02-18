@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/logo.webp">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="img/logo.webp" alt="Logo Escuela de Cine" width="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="socios.html">Socios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-light" type="submit">
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide h-50 d-none d-sm-block" data-bs-ride="carousel">
+        <div class="tituloHero w-100 h-100 position-absolute bg-dark bg-gradient bg-opacity-50" >
+            <h1 class="position-absolute rounded text-center text-white p-3 mb-5 bg-info bg-opacity-75 titulo">Escuela de Cine Paul</h1>
+        </div>
+        <div class="carousel-inner h-50 inner">
+            <div class="carousel-item active">
+                <img src="img/titanic.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/starwars.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/pulpfiction.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/gladiator.webp" class="d-block w-100" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="img/shark.jpg" class="d-block w-100" alt="Imagen 5">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <main class="container-fluid my-5">
+        <div class="form-container mx-auto p-4 border rounded shadow bg-light" style="max-width: 600px;">
+            <h2 class="mb-4 text-center">Formulario de Preferencias de Películas</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control border-primary" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control border-primary" id="apellidos" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control border-primary" id="telefono" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control border-primary" id="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control border-primary" id="comentarios" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="genero" class="form-label">Género de Películas Favorito</label>
+                    <select class="form-select border-primary" id="genero">
+                        <option value="accion">Acción</option>
+                        <option value="comedia">Comedia</option>
+                        <option value="drama">Drama</option>
+                        <option value="terror">Terror</option>
+                        <option value="ciencia_ficcion">Ciencia Ficción</option>
+                        <option value="romance">Romance</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="nacionalidad" class="form-label">Nacionalidad</label>
+                    <input type="text" class="form-control border-primary" id="nacionalidad" required>
+                </div>
+                <div class="mb-3">
+                    <label for="residencia" class="form-label">Lugar de Residencia</label>
+                    <input type="text" class="form-control border-primary" id="residencia" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-2">
+        &copy; 2025 Pablo Pérez. Todos los derechos reservados. Escuela de Cine Paul
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    padding-bottom: 50px;
+    margin-left: 25%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-inner, .carousel-item, .carousel-item img{
+    height: 400px;
+    width: 100%;
+}
+
+.inner{
+    position: relative;
+}
+.tituloHero{
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.tituloHero h1{
+    top: 40%;
+    left: 30%;
+    width: 40%;
+}
+.carousel-control-next,.carousel-control-prev{
+    z-index: 6;
+}
+
+.cardcard{
+    height: 380px;
+}
+
+.card img{
+    height: 222px;
+}
